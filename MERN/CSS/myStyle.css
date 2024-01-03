@@ -1,0 +1,15 @@
+p{
+    color: red;
+}
+#speaker{
+    width: 20px;
+    height: 20px;
+}
+#announcement{
+    color: black;
+    margin: 10px;
+}
+span{
+    display: block;
+    margin: 20px;
+}

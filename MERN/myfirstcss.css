@@ -1,0 +1,58 @@
+#postId1, p[id="post4"]{
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: blueviolet;
+    text-decoration-thickness: 2px;
+}
+
+#post3{
+    height: 300px;
+    text-decoration: line-through dotted red 4px;
+    font-size: large;
+    background-image: url("JS/logo\ yellow.png");
+    /* background-size:contain; */
+    /* background-size: cover; */
+    background-size: 200px;
+    /* background-repeat: repeat-x; */
+    background-repeat: no-repeat;
+    /* background-position: left top; */
+    /* background-position: 0 0; */
+    /* background-position: right top; */
+    /* background-position: 100% 0; */
+    /* background-position: left; */
+    /* background-position: 0 50%; */
+    /* background-position: top; */
+    /* background-position: 50% 0; */
+    /* background-position: center; */
+    /* background-position: 50% 50%; */
+    background-position: 100% 50%;
+    background-color: yellow;
+}
+
+#post5{
+    width: 50%;
+    text-align: right;
+    text-decoration: overline;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid purple;
+}
+
+img{
+    width: 80%;
+    height: 50vh;
+    padding: 20px;
+    border: 20px solid blue;
+    margin: 30px;
+    border-radius: 10px;
+    background-color: yellow;
+    box-shadow: 10px 12px 20px green;
+    /* box-shadow: 10px 12px 20px 10px green; */
+    /* box-shadow: 10px 12px 20px 10px green inset; */
+    /* box-shadow: h-offset v-offset blur spread color |inset|initial|inherit */
+}
+.upper{
+    display: inline-block;
+    border: 2px solid rgb(0, 150, 12);
+    /* display: none; */
+    /* visibility: hidden; */
+}

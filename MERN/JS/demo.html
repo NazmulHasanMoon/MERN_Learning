@@ -1,0 +1,51 @@
+<!doctype html>
+    <head>
+        <title>JS demo</title>
+        <script>
+            var name = "hasan";
+            var age = 28;
+            var salary = 49200.50;
+            let arr = new Array(1,7,5,4);
+            for(let i=0;i<4;i++){
+                document.write(arr[i]+"<br/>");
+            }
+            arr.sort();
+            document.write(arr[0]+arr[1]+"<br/>");
+            document.write(arr[0]-arr[1]+"<br/>");
+            document.write(arr[1]/arr[2]+"<br/>");
+            document.write(arr[1]*arr[2]+"<br/>");
+            document.write(arr[1]%arr[2]+"<br/>");
+            document.write((arr[1]>10)+"<br/>");
+            let ter = (arr[1]>10)?(arr[1]*3):arr[1];
+            document.write(ter+"<br/>");
+            document.write(arr);
+            document.write("<br/>Name: "+name+"<br/>");
+            document.write("Age: "+ (++age)+"<br/>");
+            document.write("Salary: "+salary+"<br/>");
+            var ref;
+            var j=1;
+            function picVal(){
+                document.getElementsByTagName("p")[0].innerHTML = arr[j];
+                j++;
+                if(j>3)j=0;
+            }
+            function Start(){
+                ref=setInterval("picVal()",2000);
+            }
+
+            function Stop(){
+                clearInterval(ref);
+            }
+
+        </script>
+    </head>
+    <body onload="Load()">
+        <p onmouseover="Stop()" onmouseout="Start()">Test</p>
+        <!-- <p id="details"></p>
+        <form>
+            <input name="t1" placeholder="Eneter Name"/><br/>
+            <input name="t2" placeholder="Enter Age"/> <br/>
+            <button onclick="person(t1.value,t2.value)"> Person Details</button>
+        </form> -->
+    </body>
+</html>
